@@ -1,0 +1,19 @@
+num_aptm = int(input("Number apartment = "))
+if not 1 <= num_aptm <= 144:
+    print("This apartment number is not in this house")
+elif 1 <= num_aptm < 36:
+    print("entrance 1", "floor", round(num_aptm / 4 + 0.5))
+elif num_aptm == 36:
+    print("entrance 1", "floor 9")
+elif num_aptm < 72:
+    print("entrance 2", "floor", round((num_aptm - 36) / 4 + 0.5))
+elif num_aptm == 72:
+    print("entrance 2", "floor 9")
+elif num_aptm < 108:
+    print("entrance 3", "floor", round((num_aptm - 72) / 4 + 0.5))
+elif num_aptm == 108:
+    print("entrance 3", "floor 9")
+elif num_aptm < 144:
+    print("entrance 4", "floor", round((num_aptm - 108) / 4 + 0.5))
+else:
+    print("entrance 4", "floor 9")
