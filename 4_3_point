@@ -1,0 +1,10 @@
+# 4_3
+z = float()
+r = float(input("r = "))
+x = float(input("x = "))
+y = float(input("y = "))
+z = (x ** 2 + y ** 2) ** 0.5
+if z <= r:
+    print("point in the plane of the circle")
+else:
+    print("point outside the plane of the circle")
