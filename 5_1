@@ -1,0 +1,9 @@
+# Numbers are multiples of 7
+x = []
+i = 1
+for i in range(7, 100):
+    if i % 7 == 0:
+        print(i)
+        i += 1
+    else:
+        continue
