@@ -1,0 +1,3 @@
+# Converting a number into a sum of codes
+text = input("Enter text ")
+print(sum(map(ord, text)))
