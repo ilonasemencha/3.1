@@ -1,0 +1,11 @@
+# 7_1 week
+x = int(input("Enter the day of the week "))
+week = {1: "Monday",
+        2: "Tuesday",
+        3: "Wednesday",
+        4: "Thursday",
+        5: "Friday",
+        6: "Saturday",
+        7:"Sunday"
+        }
+print(week[x])
