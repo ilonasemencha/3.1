@@ -1,0 +1,5 @@
+x = input("Enter text 1: ")
+y = input("Enter text 2: ")
+x = set(x)
+y = set(y)
+print(x.intersection(y))
